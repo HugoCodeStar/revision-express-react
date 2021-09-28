@@ -1,4 +1,4 @@
-# Création d'une application Express
+# Création d'une application Express/React
 
 Ce projet a pour but de vous faire construire une application Express
 avec des routes de bases et des routes avec paramètres et une application
