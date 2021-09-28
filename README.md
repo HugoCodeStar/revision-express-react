@@ -1,15 +1,21 @@
 # Création d'une application Express
 
 Ce projet a pour but de vous faire construire une application Express
-avec des routes de bases et des routes avec paramètres.
+avec des routes de bases et des routes avec paramètres et une application
+React avec des éléments dynamiques.
 
-# But
+# But - Express
 
-Vous devez créer une application qui à des ressources à les adresses suivantes :
+Vous devez créer une application Express qui à des ressources à l'adresse suivante :
 
-* /quotes - retourne un tableau des citations en JSON
-* /quotes/id (où id est un nombre ex: /quotes/3 ou /quotes/10) - retourne la citation à l'indice id de la liste de citations en JSON
-* /quotes/random - retourne une citation au hasard du tableau de citation en JSON
+* /quotes/id1-id2 (où id1 et id2 sont des nombres ex: /quotes/3-7 ou /quotes/10-45) - retourne un tableau des citations aux id données
+
+# But - React
+
+Vous devez créer une application React qui à les fonctionnalités suivantes :
+
+* Un `input` et un `button` qui permet d'entrer un ID.
+* Quand on entre un ID et pèse sur le bouton, affiche le quotes de l'ID sélectionné.
 
 # Élément fourni
 
@@ -28,5 +34,5 @@ console.log(quotes[4].author) // Affiche Robert Frost
 
 # Requis technique
 
-* L'application Express n'est pas fournie, c'est à vous de l'installer avec le express-generator.
-* L'application express doit être dans un fichier `app.js`.
+* L'application Express/React n'est pas fournie, c'est à vous de l'installer avec le express-generator/create-react-app.
+* L'application Express/React doit être dans un fichier `app.js/App.js`.
